@@ -1,0 +1,41 @@
+<!--This is a memory game designed specifically for this particular project. It is not copied/derived from any source-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Memory Tiles - Game</title>
+    <link rel="stylesheet" href="assets/style/css/memory_game.css">
+    <link rel="stylesheet" href="assets/style/css/nav.css">
+    <link rel="stylesheet" href="assets/style/css/comments.css">
+    <link rel="stylesheet" href="assets/style/css/master.css">
+    <link rel="stylesheet" href="assets/style/css/home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Memory Tiles Game</h1>
+      <h2>by Rishab Manocha</h2>
+    </header>
+    <main>
+      <div class="section">
+        <!--MEMORY GAME WITH JAVASCRIPT-->
+        <div id="game">
+          <div id="game-frame"></div>
+          <div id="mem-game-status">
+            <p id="status">Moves: 0</p>
+            <button id="reset">Reset</button>
+            <button id="submit">Submit</button>
+          </div>
+          <script type="text/javascript" src = "assets/script/javascript/memory-game.js"></script>
+        </div>
+        <!--MEMORY GAME WITH JAVASCRIPT ENDS-->
+        <!-- The above code in between the comments is taken from assignment 2 directly
+        and contains the major portion of the game. Few bits are scattered on rest of the page too-->
+      </div>
+    </main>
+    <script type="text/javascript" src = "assets/script/javascript/postComment.js"></script>
+    <!--This script uploads the comments posted to the database as well as displays the one posted instantly on the page too-->
+
+  </body>
+</html>
