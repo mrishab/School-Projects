@@ -1,0 +1,19 @@
+#popup{
+  display: inline-block;
+  position: absolute;
+  padding: 1%;
+  min-height: 20px;
+  color: white;
+  background-color:rgba(39, 39, 39, 0.8);
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px black;
+  z-index: 1;
+  margin-top:1%;
+}
+
+.show{
+  visibility: visible;
+}
+.hide{
+  visibility: hidden;
+}

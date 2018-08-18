@@ -1,0 +1,34 @@
+h1{
+  font-size: 400%;
+  text-align: center;
+}
+h2{
+  margin-left:10%;
+}
+main p{
+  width: 70%;
+  padding: 2%;
+  margin: auto;
+  margin-top:1%;
+  font-size: 110%;
+  text-align: justify;
+}
+
+main li span{
+  padding: 3%;
+}
+main li{
+  width: 100%;
+}
+.contact{
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  text-align: center;
+}
+.contact *{
+  text-align: center;
+}
